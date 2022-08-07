@@ -14,9 +14,9 @@ function nextSequence(){
    animatePress(randomChosenColour)
    playSound(randomChosenColour)
  
-
-   $("#level-title").text("Level "+ level)
    level= level + 1;
+   $("#level-title").text("Level "+ level)
+   
 
  }
 
