@@ -78,7 +78,7 @@ function checkAnswer(currentLevel) {
 $(document).keypress(function(){
    
    if (!started){
-      $("#level-title").text("Level " + level);
+      //$("#level-title").text("Level " + level);
       nextSequence()
       started=true
       
